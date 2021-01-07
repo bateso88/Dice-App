@@ -8,8 +8,8 @@ describe Dice do
   end
 
   it 'roll should return a number between 1 and 6' do
-    dice = Dice.new
-    expect(dice.roll).to (be >=1).and (be <=6)
+    #dice = Dice.new
+    expect(subject.roll).to (be >=1).and (be <=6)
   end
 
 end
