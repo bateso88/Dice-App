@@ -1,7 +1,7 @@
 class Dice
 
   def roll
-    3
+    4
   end
   
 end
