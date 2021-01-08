@@ -13,7 +13,6 @@ class Game
     def play
         scores = []
         @dice.each{|die| scores.push(die.roll)}
-        scores
         scores.sum 
     end
 

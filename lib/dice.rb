@@ -13,5 +13,5 @@ class Dice
   def track_record
     @track_record
   end
-  
+
 end
