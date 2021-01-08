@@ -1,8 +1,8 @@
 require 'game'
 describe Game do 
-    it "expects a new Game to take a given number of dice and roll them" do
-        game = Game.new(20)
-        expect(game.play.length).to eq 20
+    it "expects a Game to roll a given numebr of dice and return the sum" do
+        game = Game.new(30)
+        expect(game.play). to (be >= 30).and (be <= 180)
     end
 
 end
@@ -13,10 +13,6 @@ end
 
 
 =begin
-    it "expects a new Game to respond to :dice" do
-        game = Game.new(3)
-        expect(game).to respond_to :dice
-    end
 
     it "expects dice to return an array of given number of dice" do 
         game = Game.new(5)
